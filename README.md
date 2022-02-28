@@ -1,0 +1,2 @@
+# custom_word_tokenizer
+Custom Word Tokenizer used in my master thesis at Gavagai. Word tokenizer to be used in conjunction with the SPACY and NLTK tokenizer. This tokenizer wraps the NLTK sentence splitter to avoid splitting sentences that end with ".", "!" or "?" within double or single quotes. Among other small tweaks, it also wraps single words that should not be it's own sentence and it wraps abreviations and keeps these occurences from wrongfully splitting paragraphs into too many sentences that does not make any sense. 
